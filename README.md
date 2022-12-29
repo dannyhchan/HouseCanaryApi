@@ -24,7 +24,7 @@ In your terminal (Assuming you cloned the repo and is already in the HouseCanary
   <li>Run `python manage.py makemigrations`</li>
   <li>Run `python manage.py migrate`</li>
   <li>run `python manage.py runserver`</li>
-  <li>Setup API keys for Authentication or the REST methods won't authenticate.  Log in with the super user account.  The menu should have the API Keys where you can add a new API key.  To Authenticate the REST api calls, you will need to add in the request header with `Authorization` key.  Value needs to be in this format `Api-Key <GENERATED_API_KEY>`<li>
+  <li>Setup API keys for Authentication or the REST methods won't authenticate.  Log in with the super user account.  The menu should have the API Keys where you can add a new API key.  To Authenticate the REST api calls, you will need to add in the request header with `Authorization` key.  Value needs to be in this format `Api-Key GENERATED_API_KEY`<li>
   <li>On your browser open this URL: `http://127.0.0.1:8000/`</li>
 </ol>
 
