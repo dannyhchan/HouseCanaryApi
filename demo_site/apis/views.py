@@ -27,6 +27,7 @@ def property_detail(request):
   # Retrieve property data via HousingCanaryApiService
   if request.method == 'GET':
     try:
+      # TODO: Should add validation for these required params. Throw custom validation back to the response if these does not exists in the query params
       address = request.GET.get('address')
       zip_code = request.GET.get('zipcode')
 
