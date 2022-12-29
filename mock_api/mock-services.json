@@ -1,0 +1,70 @@
+{
+  "uuid": "e44c3c43-13b3-4f76-962b-86d6c60642ca",
+  "lastMigration": 24,
+  "name": "Mock services",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3004,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "c78837b0-ed25-4719-bd07-f2fd9ba36e06",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "v2/property/details",
+      "responses": [
+        {
+          "uuid": "a9f9661a-eac9-4c6d-b054-1b1100957583",
+          "body": "{\n    \"property/details\": {\n        \"api_code_description\": \"ok\",\n        \"api_code\": 0,\n        \"result\": {\n            \"property\": {\n                \"air_conditioning\": \"yes\",\n                \"attic\": false,\n                \"basement\": \"full_basement\",\n                \"building_area_sq_ft\": 1824,\n                \"building_condition_score\": 5,\n                \"building_quality_score\": 3,\n                \"construction_type\": \"Wood\",\n                \"exterior_walls\": \"wood_siding\",\n                \"fireplace\": false,\n                \"full_bath_count\": 2,\n                \"garage_parking_of_cars\": 1,\n                \"garage_type_parking\": \"underground_basement\",\n                \"heating\": \"forced_air_unit\",\n                \"heating_fuel_type\": \"gas\",\n                \"no_of_buildings\": 1,\n                \"no_of_stories\": 2,\n                \"number_of_bedrooms\": 4,\n                \"number_of_units\": 1,\n                \"partial_bath_count\": 1,\n                \"pool\": true,\n                \"property_type\": \"Single Family Residential\",\n                \"roof_cover\": \"Asphalt\",\n                \"roof_type\": \"Wood truss\",\n                \"site_area_acres\": 0.119,\n                \"style\": \"colonial\",\n                \"total_bath_count\": 2.5,\n                \"total_number_of_rooms\": 7,\n                \"sewer\": \"septic\",\n                \"subdivision\" : \"CITY LAND ASSOCIATION\",\n                \"water\": \"municipal\",\n                \"year_built\": 1957,\n                \"zoning\": \"RH1\"\n            },\n\n            \"assessment\":{\n                \"apn\": \"0000 -1111\",\n                \"assessment_year\": 2015,\n                \"tax_year\": 2015,\n                \"total_assessed_value\": 1300000.0,\n                \"tax_amount\": 15199.86\n            }\n        }\n    }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}

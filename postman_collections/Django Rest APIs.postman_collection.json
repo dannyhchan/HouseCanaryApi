@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "c0b51a09-6b33-43a5-bcdb-17b3f6926c70",
+		"name": "Django Rest APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22775539"
+	},
+	"item": [
+		{
+			"name": "Answers List",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Api-Key r5O1JJ70.1LiosPvAPWU3g6fwraWz0Z5sHktJD0Ea",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/answers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"answers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Answer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Api-Key r5O1JJ70.1LiosPvAPWU3g6fwraWz0Z5sHktJD0Ea",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"questionId\": 1,\n    \"propertyId\": 3,\n    \"answer\": \"Answer number 4\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/answers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"answers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Property Details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Api-Key r5O1JJ70.1LiosPvAPWU3g6fwraWz0Z5sHktJD0Ea",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/propertydetails/?address=123 Main St&zipcode=94132",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"propertydetails",
+						""
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "123 Main St"
+						},
+						{
+							"key": "zipcode",
+							"value": "94132"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

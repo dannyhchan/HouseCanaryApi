@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "ed8b234a-4e9e-46aa-8fbd-9a0b4459059e",
+		"name": "Mock Service APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22775539"
+	},
+	"item": [
+		{
+			"name": "House Canary Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/v2/property/details?address=123+Main+St&zipcode=94132",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"v2",
+						"property",
+						"details"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "123+Main+St"
+						},
+						{
+							"key": "zipcode",
+							"value": "94132"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
