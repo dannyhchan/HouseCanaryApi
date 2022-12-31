@@ -43,6 +43,7 @@ In your terminal (Assuming you cloned the repo and is already in the HouseCanary
   <li>Run `pip install -r requirements.txt`</li>
   <li>cd `demo_site`</li>
   <li>Create a super user by running this command `python manage.py createsuperuser`</li>
+  <li>Run `python manage.py makemigrations apis`</li>
   <li>Run `python manage.py makemigrations`</li>
   <li>Run `python manage.py migrate`</li>
   <li>run `python manage.py runserver`</li>
