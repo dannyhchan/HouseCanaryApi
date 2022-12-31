@@ -1,4 +1,4 @@
-# HouseCanaryApi
+# HouseCanaryApi - Demo App
 
 This Demo project tries to answer the requirements for the following:
 
