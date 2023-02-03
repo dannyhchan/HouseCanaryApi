@@ -12,7 +12,7 @@ According to my understand, I tried to provide a solution based on the following
 2. Once the Frontend checks against the object property "sewer" and if the value is "Septic", then a question will be prompted to the user.
 3. The user answers a question and the answer to the question is then making a POST call to a custom API to save the data.
 
-Also, this is the first time spinning up a Django REST framework for development, so the structure of this application is probably messy.  Main code lies within the `apis` folder and in the `models.py`, `views.py`, `serializers.py`, and `services.py` files.
+Main code logic lies within the `apis` folder and in the `models.py`, `views.py`, `serializers.py`, and `services.py` files.
 
 ### Requirements
 1. Python Version 3.8.14
